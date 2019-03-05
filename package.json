@@ -4,12 +4,22 @@
   "description": "This is a app that accepts daily tea count and gives back the total expenses every month",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "nodemon server.js"
   },
   "keywords": [
     "chai",
     "app"
   ],
   "author": "Kaushik Deo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
