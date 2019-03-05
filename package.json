@@ -1,0 +1,15 @@
+{
+  "name": "chai",
+  "version": "1.0.0",
+  "description": "This is a app that accepts daily tea count and gives back the total expenses every month",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chai",
+    "app"
+  ],
+  "author": "Kaushik Deo",
+  "license": "ISC"
+}
